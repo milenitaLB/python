@@ -1,0 +1,20 @@
+
+#calcular el valor de la comprar y el valor del descuento con las condiciones dadas
+
+valorCompra=40000
+valorRef=50000
+descuento1=0.1
+descuento2=0.05
+descuento3=0.07
+
+if valor_compra==0:
+    print ("no genera descuento")
+elif valor_compra==50000:
+    descuento=valor_compra-(valor_compra*0.07)
+    print("el valor de la compra es de $",valor_compra,"se le aplica un descuento del""7%""dando un total apagar $",descuento)
+elif valor_compra>50000:
+    descuento = valor_compra-(valor_compra*0.10)
+    print("el valor de la compra es de $",valor_compra,"se le aplica un descuento del ""10%""dando un total a pagar $",descuento)
+elif valor_compra<50000:
+    descuento = valor_compra-(valor_compra*0.05)
+print("el valor de la compra es de $",valor_compra,"se le aplica un descuento del ""5%""dando un total a pagar $",descuento) 
